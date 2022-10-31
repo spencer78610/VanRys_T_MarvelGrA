@@ -15,7 +15,6 @@ body {
   font-family: sans-serif;
   background-color: black;
   color: white;
-  background-image: url('../images/denim.png');
 }
 
 /* main header rules */
@@ -43,6 +42,7 @@ header {
 .characters { list-style-type: none; }
 
 .characters li { 
+    position: relative;
     display: inline-block;
     height: 220px;
     margin: 10px 8px;
@@ -50,19 +50,30 @@ header {
     background-color: black;
 
     text-align: left;
-
     cursor: pointer;
 }
 
 .characters li h5 {
+    position: relative;
+    color: white;
     padding: 12px 8px;
+
+    z-index: 500;
 }
+
+.characters li a { text-decoration: none; }
 
 .red_bumper {
     width: 100%;
     height: 6px;
     background-color: red;
+
+    transition: height 0.2s ease;
+
+    position: absolute;
 }
+
+.characters li:hover .red_bumper { height: 70px; }
 
 article { padding: 20px; }
 
@@ -124,9 +135,33 @@ footer {
     left: 0;
 
     background-color: rgba(0, 0, 0, 0.85);
+    background-image: url('../images/Cap_LB_Bg.png');
+    background-repeat: no-repeat;
+
+    background-size: 55vh; /* 55% of the viewport height */
+    background-position: 40px bottom;
+
+    z-index: 5000;
 
     display: none;
 }
+
+#lightbox2 { background-image: url('../images/Thor_LB_Bg.png'); }
+
+.lightbox_close {
+    position: relative;
+    top: 20px;
+    left: 95%;
+
+    color: white;
+    font-size: 3em;
+
+    text-decoration: none;
+
+    font-weight: bolder;
+}
+
+.lightbox_close:hover { opacity: 0.5; color: red; }
 
 .lightbox article {
     width: 55%;
@@ -141,3 +176,6 @@ footer {
     margin-left: 0;
     padding-top: 2em;
 }
+
+/* turn the lightbox on using the :target pseudo selector */
+.lightbox:target { display: block; }
