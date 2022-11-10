@@ -57,6 +57,7 @@ header {
 .characters li h5 {
     color: black;
     padding: 12px 8px;
+   
 }
 
 .characters li a { text-decoration: none; }
@@ -64,8 +65,12 @@ header {
 .red_bumper {
     width: 100%;
     height: 6px;
-    background-color: red;
+    background-color: yellow;
+    
+   
 }
+
+
 
 article { padding: 20px; }
 
