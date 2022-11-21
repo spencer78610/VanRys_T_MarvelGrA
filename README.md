@@ -15,8 +15,6 @@ All about Family Guy characters. Choose a guy to explore!
 
 TODO: 
 
-Trevor Van Rys
-
 Spencer Abbott
 
 ## License
