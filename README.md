@@ -1,6 +1,6 @@
 # Family Guy Character Bio Build
 
-All about Family Guy characters lineup. Choose a guy to explore!
+All about Family Guy characters. Choose a guy to explore!
 
 ## Contributing
 
@@ -13,7 +13,9 @@ All about Family Guy characters lineup. Choose a guy to explore!
 
 ## Credits
 
-TODO: Trevor
+TODO: 
+
+Trevor Van Rys
 
 Spencer Abbott
 
