@@ -1,6 +1,6 @@
-# Marvel Character Bio Build
+# Family Guy Character Bio Build
 
-All about Marvel's character lineup. Choose a character to explore!
+All about Family Guy characters. Choose a guy to explore!
 
 ## Contributing
 
@@ -13,7 +13,9 @@ All about Marvel's character lineup. Choose a character to explore!
 
 ## Credits
 
-TODO: Write credits
+TODO: 
+
+Spencer Abbott
 
 ## License
 
